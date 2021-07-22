@@ -4,8 +4,7 @@ import json
 class Database():
     def selectdb():
         try:
-            # conn = pymysql.connect(host='데이터베이스 엔드포인트(외부에 알려지면 안됨!)', user='root', password='1234', db='playdata', charset='utf8')
-            conn = pymysql.connect(host='database-3.caefhfvxhncb.ap-northeast-2.rds.amazonaws.com', user='admin', password='playdata', db='playdata', charset='utf8')
+            conn = pymysql.connect(host='데이터베이스 엔드포인트(외부에 알려지면 안됨!)', user='root', password='1234', db='playdata', charset='utf8')
             cursor = conn.cursor()
             
             data = []
