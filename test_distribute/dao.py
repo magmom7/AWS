@@ -15,7 +15,7 @@ class Database():
                 print(row)
             # print(row)
             # data.append({"empno" : row[0], "ename" : row[1], "job" : row[2], "mgr" : row[3], "hiredate" : row[4], "sal" :row[5], "comm" : row[6], "deptno" : row[7]})
-            data.append({"empno" : row[0], "ename" : row[1], "job" : row[2], "mgr" : row[3], "deptno" : row[7]})
+                data.append({"empno" : row[0], "ename" : row[1], "job" : row[2], "mgr" : row[3], "deptno" : row[7]})
 
             
         except Exception as e:
